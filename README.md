@@ -9,19 +9,23 @@ mortgage info, and other stats. The user can also add contact information for a 
 
 # CRUD
 
-C - User can create a new property entry to their portfolio.
+C 
+  - User can create a new property entry to their portfolio.
   - User can create a new manager entry and assign them to a property. (name, phone, email, office location)
   - User can create mortgage statistics for their property with help from mortgage calc API. (monthly cost, total interest)
   - User can create rental statistics for their property. (monthly income, monthly cost, vacancy)
   
-R - Homepage is a dashboard showing total portfolio value, current portfolio income, current portfolio cost,
+R 
+  - Homepage is a dashboard showing total portfolio value, current portfolio income, current portfolio cost,
         current monthly/annual profit/loss, and current map of all properties in their portfolio
   - User can search for a specific address in their portfolio and see each property statistics.
   - User can search for a specific address outside of their portfolio and see geographical statistics then add it to their portfolio if desired.
 
-U - User can update mortgage stats, current rental stats, current managers, etc.
+U 
+  - User can update mortgage stats, current rental stats, current managers, etc.
 
-D - User can sell properties from their portfolio and delete associated information.
+D 
+  - User can sell properties from their portfolio and delete associated information.
 
 
 # APIs
@@ -32,10 +36,10 @@ Google Maps API --> https://developers.google.com/maps/documentation/javascript
 
 # Database
 
-One table for users and accounts
-One table for properties and statistics
-One table for property managers
-One table for mortgage information? Stretch goal?
+- One table for users and accounts
+- One table for properties and statistics
+- One table for property managers
+- One table for mortgage information? Stretch goal?
 
 ------------
 
